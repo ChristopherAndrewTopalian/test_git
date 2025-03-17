@@ -3,12 +3,20 @@
 <!-- https://github.com/ChristopherTopalian -->
 <!-- https://github.com/ChristopherAndrewTopalian -->
 <!-- test.html -->
-<!-- Version 001 - (2024-12-06) -->
 
 <html>
 <head>
 <title> Test </title>
 
+<script>
+
+function whenLoaded()
+{
+    alert('testing');
+}
+    
+</script>
+    
 <style>
 
 body
@@ -21,7 +29,7 @@ body
 
 </head>
 
-<body>
+<body onload = 'whenLoaded();'>
 
 test
 More testing here
